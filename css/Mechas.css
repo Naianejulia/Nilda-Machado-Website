@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet');
+
+body {
+    background-color: #E8CFC1;
+    background-size: cover;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.btn-sm {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+    color: #000;
+}
+
+.btn-primary {
+    background-color: #E8CFC1;
+    border-radius: 50px;
+}
+
+.btn-primary:hover {
+    background-color: #E8CFC1;
+    ;
+}
+
+.btn-outline {
+    border: 2px solid #523E27;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.btn-outline:hover {
+    color: #3C3640;
+    border-color: #3C3640;    
+}
+#hero-container {
+    background-color: #E8CFC1;
+    color: #0A0A0A;
+    padding: 48px 72px 0;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.container-hero img {
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+}

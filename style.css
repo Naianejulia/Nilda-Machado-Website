@@ -108,7 +108,9 @@ body {
 #hero-container {
     background-color: #EF1283;
     color: #0A0A0A;
-    padding: 48px 72px 0;
+    padding: 96px 72px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero {
@@ -123,22 +125,17 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
-    padding: 96px 0;
     font-family: 'Playfair Display', serif;
     color: #0A0A0A;
 }
 
 .hero-img {
-    flex: 1;
-    align-self: flex-end;
     display: flex;
 }
 
 .hero-img img {
-    max-width: 40%;
-    height: 100%;
-    margin-left: 720px;
-    margin-top: -463px;
+    width: 320px;
+    height: 180px;
 }
 
 .herotxt {
@@ -261,27 +258,74 @@ footer {
     border-radius: 4px;
 }
 
-@media (max-width: 787px) {
+@media (max-width: 767px) {
+    .title {
+        font-size: 30px;
+    }
     .hero-text {
         text-align: center;
     }
-    .mapa {
-        display: flex;
-        width: 5%;
-        height: 5%;
+    .herotxt {
+        font-size: 56px;
+        line-height: 60px;
+        font-weight: 700;
+    }
+    #hero-container {
+        flex-direction: column;
     }
     .hero-img img {
-        display: flex;
-        max-width: 40%;
-        height: 100%;
-        margin-left: 500px !important;
-        margin-top: -363px;
+        width: 320px;
+        height: 180px;
+        align-items: center;
+        padding: 30px;
     }
     .text-p {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 30px;
         max-width: 520px;
+    }
+    .btn {
+        padding: 20px 10px;
+        font-size: 1rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .services-list {
+        display: flex;
+        padding: 48px;
+        gap: 32px;
+        flex-direction: column;
+    }
+    .service-text {
+        padding: 2px;
+    }
+    .service-text p {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
         color: #3C3640;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .service-card {
+        border-radius: 20px;
+    }
+    .service-card img {
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+      }
+    #location-container .location {
+        padding: 30px 20px 20px;
+    }
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    .mapa {
+        width: 90px;
+        height: 80px;
     }
 }
