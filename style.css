@@ -262,9 +262,6 @@ footer {
     .title {
         font-size: 30px;
     }
-    .hero-text {
-        text-align: center;
-    }
     .herotxt {
         font-size: 56px;
         line-height: 60px;
@@ -301,31 +298,11 @@ footer {
     .service-text {
         padding: 2px;
     }
-    .service-text p {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
-        color: #3C3640;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .service-card {
-        border-radius: 20px;
-    }
-    .service-card img {
-        width: 100%;
-        border-radius: 20px 20px 0 0;
-        -webkit-transition: -webkit-transform .5s ease;
-        transition: transform .5s ease;
-      }
     #location-container .location {
         padding: 30px 20px 20px;
     }
     .container {
         max-width: 1280px;
         margin: 0 auto;
-    }
-    .mapa {
-        width: 90px;
-        height: 80px;
     }
 }
